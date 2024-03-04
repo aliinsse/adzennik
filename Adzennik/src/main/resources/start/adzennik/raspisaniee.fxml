@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="600.0" maxWidth="800.0" minHeight="400" minWidth="600" prefHeight="600.0" prefWidth="800.0" stylesheets="@../../../../../../../adzennikii/for_rasp.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.adzennik.AlinaController">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="32.0" prefWidth="600.0" spacing="5.0" style="-fx-background-color: ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="profile" mnemonicParsing="false" onAction="#profile_Click" prefWidth="400.0" stylesheets="@../../style.css" text="ЛИЧНЫЙ ПРОФИЛЬ" textAlignment="JUSTIFY" />
+            <Button fx:id="schedule" mnemonicParsing="false" onAction="#schedule_Click" prefWidth="365.0" stylesheets="@../../style.css" text="РАСПИСАНИЕ" textAlignment="JUSTIFY" />
+            <Button fx:id="grades" mnemonicParsing="false" onAction="#grades_Click" prefWidth="340.0" stylesheets="@../../style.css" text="ОЦЕНКИ" textAlignment="JUSTIFY" />
+            <Button fx:id="chat" mnemonicParsing="false" onAction="#chat_Click" prefWidth="380.0" stylesheets="@../../style.css" text="КЛАССНЫЙ ЧАТ" textAlignment="JUSTIFY" />
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="291.0" prefWidth="442.0" style="-fx-background-color: ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="12.0" layoutY="22.0" prefHeight="534.0" prefWidth="777.0" style="-fx-border-radius: 10;" styleClass="pane" stylesheets="@../../../../../../../adzennikii/for_rasp.css">
+               <children>
+                  <Line endX="-79.0" endY="15.0" layoutX="128.0" layoutY="48.0" startX="642.0" startY="15.0" stroke="#fa7327" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="7.0" />
+                  <Label layoutX="12.0" layoutY="77.0" prefHeight="42.0" prefWidth="27.0" style="-fx-font-size: 25;" text="1." textFill="#6c6c6c">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label layoutX="11.0" layoutY="134.0" prefHeight="41.0" prefWidth="27.0" style="-fx-font-size: 25;" text="2." textFill="#6c6c6c">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label layoutX="11.0" layoutY="186.0" prefHeight="43.0" prefWidth="27.0" style="-fx-font-size: 25;" text="3." textFill="#6c6c6c">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label layoutX="11.0" layoutY="299.0" prefHeight="42.0" prefWidth="27.0" style="-fx-font-size: 25;" text="5." textFill="#6c6c6c">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label layoutX="11.0" layoutY="245.0" prefHeight="40.0" prefWidth="27.0" style="-fx-font-size: 25;" text="4." textFill="#6c6c6c">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label layoutX="11.0" layoutY="464.0" prefHeight="45.0" prefWidth="27.0" style="-fx-font-size: 25;" text="8." textFill="#6c6c6c">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label layoutX="11.0" layoutY="410.0" prefHeight="42.0" prefWidth="27.0" style="-fx-font-size: 25;" text="7." textFill="#6c6c6c">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label layoutX="11.0" layoutY="354.0" prefHeight="41.0" prefWidth="27.0" style="-fx-font-size: 25;" text="6." textFill="#6c6c6c">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <HBox layoutX="-1.0" layoutY="461.0" prefHeight="46.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="6.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="-1.0" layoutY="404.0" prefHeight="52.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="-1.0" layoutY="348.0" prefHeight="56.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="6.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="-1.0" layoutY="293.0" prefHeight="54.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="-1.0" layoutY="237.0" prefHeight="62.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="-1.0" layoutY="182.0" prefHeight="56.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="6.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox layoutY="127.0" prefHeight="51.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="6.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="-1.0" layoutY="71.0" prefHeight="60.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" styleClass="emptybutton" stylesheets="@../../../../../../../adzennikii/for_rasp.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="-1.0" layoutY="6.0" prefHeight="68.0" prefWidth="785.0">
+                     <children>
+                        <Pane prefHeight="100.0" prefWidth="284.0">
+                           <children>
+                              <Button layoutX="46.0" layoutY="4.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" style="-fx-font-size: 12.5;" styleClass="bbutt" stylesheets="@../../../../../../../adzennikii/for_rasp.css" text="ПОНЕДЕЛЬНИК" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="157.0">
+                           <children>
+                              <Button layoutX="-59.0" layoutY="4.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" style="-fx-font-size: 15;" styleClass="bbutt" stylesheets="@../../../../../../../adzennikii/for_rasp.css" text="ВТОРНИК">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="197.0">
+                           <children>
+                              <Button layoutX="-37.0" layoutY="4.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" style="-fx-font-size: 15;" styleClass="bbutt" stylesheets="@../../../../../../../adzennikii/for_rasp.css" text="СРЕДА" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="156.0">
+                           <children>
+                              <Button layoutX="-56.0" layoutY="4.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" style="-fx-font-size: 15;" styleClass="bbutt" stylesheets="@../../../../../../../Users/Admin/Desktop/Alina JavaFX/rasp.css" text="ЧЕТВЕРГ" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="164.0">
+                           <children>
+                              <Button layoutX="-34.0" layoutY="4.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" style="-fx-font-size: 15;" styleClass="bbutt" stylesheets="@../../../../../../../Users/Admin/Desktop/Alina JavaFX/rasp.css" text="ПЯТНИЦА" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Button layoutX="-19.0" layoutY="4.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="110.0" style="-fx-font-size: 15;" styleClass="bbutt" stylesheets="@../../../../../../../Users/Admin/Desktop/Alina JavaFX/rasp.css" text="СУББОТА" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

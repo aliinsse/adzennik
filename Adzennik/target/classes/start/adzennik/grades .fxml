@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="600.0" maxWidth="800.0" minHeight="400" minWidth="600" prefHeight="600.0" prefWidth="800.0" stylesheets="@../../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.adzennik.AlinaController">
+   <bottom>
+        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="600.0" spacing="5.0" style="-fx-background-color: FFFFFF;" BorderPane.alignment="CENTER">
+            <children>
+                <Button mnemonicParsing="false" prefWidth="400.0" text="ЛИЧНЫЙ ПРОФИЛЬ" textAlignment="JUSTIFY" />
+                <Button mnemonicParsing="false" prefWidth="365.0" text="РАСПИСАНИЕ" textAlignment="JUSTIFY" />
+                <Button mnemonicParsing="false" prefWidth="340.0" text="ОЦЕНКИ" textAlignment="JUSTIFY" />
+                <Button mnemonicParsing="false" prefWidth="380.0" text="КЛАССНЫЙ ЧАТ" textAlignment="JUSTIFY" />
+            </children>
+        </HBox>
+    </bottom>
+   <center>
+      <Pane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="11.0" layoutY="13.0" prefHeight="547.0" prefWidth="777.0" styleClass="pane" stylesheets="@gradess.css">
+               <children>
+                  <ScrollBar layoutX="10.0" layoutY="52.0" orientation="VERTICAL" prefHeight="484.0" prefWidth="14.0" style="-fx-background-color: FA7327;" styleClass="scrollBar" stylesheets="@gradess.css" />
+                  <Pane layoutX="14.0" layoutY="14.0" prefHeight="21.0" prefWidth="142.0" style="-fx-background-color: B7B7B7; -fx-background-radius: 10;">
+                     <children>
+                        <Label layoutX="13.0" layoutY="-1.0" prefHeight="22.0" prefWidth="129.0" text="УЧЕБНЫЕ ПРЕДМЕТЫ" textAlignment="CENTER" textFill="#fa7327" />
+                     </children>
+                  </Pane>
+                  <Button layoutX="32.0" layoutY="59.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="БЕЛОРУССКИЙ ЯЗЫК" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="32.0" layoutY="94.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="БЕЛОРУССКАЯ ЛИТЕРАТУРА" textFill="#d9d9d9">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Button>
+                  <Button layoutX="32.0" layoutY="128.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="РУССКИЙ ЯЗЫК" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="162.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="РУССКАЯ ЛИТЕРАТУРА" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="196.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ИНОСТРАННЫЙ ЯЗЫК" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="230.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="МАТЕМАТИКА" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="264.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ИНФОРМАТИКА" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="298.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ВСЕМИРНАЯ ИСТОРИЯ" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="332.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ИСТОРИЯ БЕЛАРУСИ" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="366.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ОБЩЕСТВОВЕДЕНИЕ" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="400.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ГЕОГРАФИЯ" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="434.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ФИЗИЧЕСКАЯ КУЛЬТУРА" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="468.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ТРУДОВОЕ ОБУЧЕНИЕ" textFill="#d9d9d9" />
+                  <Button layoutX="32.0" layoutY="503.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" style="-fx-background-radius: 10;" styleClass="buttonGrades" stylesheets="@gradess.css" text="ИСКУССТВО" textFill="#d9d9d9" />
+                  <Line cache="true" endX="43.0" endY="-22.0" layoutX="468.0" layoutY="35.0" startX="43.0" startY="8.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line endX="-62.0" layoutX="615.0" layoutY="44.0" startX="-88.0" stroke="#959595" />
+                  <Line cache="true" endX="25.0" endY="-33.0" layoutX="481.0" layoutY="45.0" startX="35.0" startY="-33.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="25.0" endY="-33.0" layoutX="481.0" layoutY="76.0" startX="35.0" startY="-33.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="43.0" endY="-22.0" layoutX="528.0" layoutY="35.0" startX="43.0" startY="8.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="25.0" endY="-33.0" layoutX="542.0" layoutY="76.0" startX="39.0" startY="-33.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="22.0" endY="-33.0" layoutX="546.0" layoutY="44.0" startX="35.0" startY="-33.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="43.0" endY="-22.0" layoutX="535.0" layoutY="35.0" startX="43.0" startY="8.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="43.0" endY="-22.0" layoutX="592.0" layoutY="35.0" startX="43.0" startY="8.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="25.0" endY="-33.0" layoutX="606.0" layoutY="76.0" startX="46.0" startY="-33.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="22.0" endY="-33.0" layoutX="610.0" layoutY="44.0" startX="42.0" startY="-33.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="43.0" endY="-22.0" layoutX="599.0" layoutY="35.0" startX="43.0" startY="8.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="43.0" endY="-22.0" layoutX="606.0" layoutY="34.0" startX="43.0" startY="8.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="43.0" endY="-22.0" layoutX="656.0" layoutY="35.0" startX="43.0" startY="8.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="25.0" endY="-33.0" layoutX="670.0" layoutY="76.0" startX="46.0" startY="-33.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="22.0" endY="-33.0" layoutX="674.0" layoutY="44.0" startX="43.0" startY="-33.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="45.0" endY="-22.0" layoutX="658.0" layoutY="35.0" startX="50.0" startY="8.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line cache="true" endX="47.0" endY="-22.0" layoutX="668.0" layoutY="34.0" startX="42.0" startY="9.0" stroke="#959595" strokeLineCap="ROUND" strokeWidth="4.0" />
+                  <Line endX="-62.0" layoutX="680.0" layoutY="44.0" startX="-88.0" stroke="#959595" />
+                  <Line endX="-62.0" layoutX="748.0" layoutY="44.0" startX="-88.0" stroke="#959595" />
+                  <Line endX="-62.0" layoutX="814.0" layoutY="44.0" startX="-88.0" stroke="#959595" />
+                  <Button layoutX="179.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="179.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="213.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="247.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="281.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="315.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="349.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="383.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="417.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="451.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="485.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="519.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="553.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="587.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="621.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="655.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="689.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="59.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="94.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="128.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="162.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="197.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="231.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="264.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="299.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="333.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="366.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="401.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="435.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="469.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="504.0" maxHeight="27.0" maxWidth="27.0" minHeight="27.0" minWidth="27.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" style="-fx-background-radius: 7;" styleClass="buttonGradesALot" stylesheets="@gradess.css" textFill="#6b6b6b">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="524.0" layoutY="1.0" prefHeight="53.0" prefWidth="46.0" text="-" textFill="#5e5e5e">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="591.0" prefHeight="53.0" prefWidth="46.0" text="-" textFill="#5e5e5e">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="659.0" prefHeight="53.0" prefWidth="46.0" text="-" textFill="#5e5e5e">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="725.0" prefHeight="53.0" prefWidth="46.0" text="-" textFill="#5e5e5e">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </children>
+      </Pane>
+   </center>
+
+</BorderPane>

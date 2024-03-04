@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="600.0" maxWidth="800.0" minHeight="400" minWidth="600" prefHeight="600.0" prefWidth="800.0" stylesheets="@../../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.adzennik.AlinaController">
+    <bottom>
+        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="600.0" spacing="5.0" style="-fx-background-color: F5F5F5;">
+            <children>
+                <Button fx:id="profile" mnemonicParsing="false" onAction="#profile_Click" prefWidth="400.0" text="ЛИЧНЫЙ ПРОФИЛЬ" textAlignment="JUSTIFY" />
+                <Button fx:id="schedule" mnemonicParsing="false" onAction="#schedule_Click" prefWidth="365.0" text="РАСПИСАНИЕ" textAlignment="JUSTIFY" />
+                <Button fx:id="grades" mnemonicParsing="false" onAction="#grades_Click" prefWidth="340.0" text="ОЦЕНКИ" textAlignment="JUSTIFY" />
+                <Button fx:id="chat" mnemonicParsing="false" onAction="#chat_Click" prefWidth="380.0" text="КЛАССНЫЙ ЧАТ" textAlignment="JUSTIFY" />
+            </children>
+        </HBox>
+    </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutY="1.0" prefHeight="567.0" prefWidth="800.0" style="-fx-background-color: F5F5F5;">
+               <children>
+                  <AnchorPane layoutX="19.0" layoutY="36.0" prefHeight="518.0" prefWidth="764.0" style="-fx-background-color: #8C8A88; -fx-background-radius: 13;">
+                     <children>
+                        <TextField layoutX="21.0" layoutY="458.0" maxHeight="44.0" prefHeight="44.0" prefWidth="723.0" promptText="сообщение" style="-fx-background-color: D9D9D9; -fx-max-height: 1; -fx-background-radius: 25;">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                     </children></AnchorPane>
+                  <Label layoutX="24.0" layoutY="7.0" prefHeight="22.0" prefWidth="125.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 10; -fx-alignment: center;" text="- - КЛАСС" textAlignment="JUSTIFY" textFill="#514e4e" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,36 @@
+.pane{
+
+   -fx-border-radius: 10 10 10 10;
+   -fx-background-color: #EFEFEF;
+   -fx-background-radius: 10 10 10 10;
+
+
+}
+ .scrollBar{
+
+   -fx-border-radius: 10 10 10 10;
+
+   -fx-background-radius: 10 10 10 10;
+
+}
+
+.buttonGrades{
+     -fx-text-fill: #6B6B6B;
+       -fx-font-size: 9px;
+
+}
+
+
+.buttonGradesALot{
+
+     -fx-text-fill: #6B6B6B;
+       -fx-font-size: 15px;
+
+}
+
+.buttonLogIn{
+
+     -fx-text-fill: #fa7327;
+
+       -fx-font-size: 15px;
+}

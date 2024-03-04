@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="600.0" maxWidth="800.0" minHeight="400" minWidth="600" prefHeight="600.0" prefWidth="834.0" stylesheets="@../../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.adzennik.AlinaController">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="32.0" prefWidth="600.0" spacing="5.0" style="-fx-background-color: EFEFEF;">
+         <children>
+            <Button fx:id="profile" mnemonicParsing="false" onAction="#profile_Click" prefWidth="400.0" text="ЛИЧНЫЙ ПРОФИЛЬ" textAlignment="JUSTIFY" />
+            <Button fx:id="schedule" mnemonicParsing="false" onAction="#schedule_Click" prefWidth="365.0" text="РАСПИСАНИЕ" textAlignment="JUSTIFY" />
+            <Button fx:id="grades" mnemonicParsing="false" onAction="#grades_Click" prefWidth="340.0" text="ОЦЕНКИ" textAlignment="JUSTIFY" />
+            <Button fx:id="chat" mnemonicParsing="false" onAction="#chat_Click" prefWidth="380.0" text="КЛАССНЫЙ ЧАТ" textAlignment="JUSTIFY" />
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="299.0" prefWidth="1920.0" style="-fx-background-color: EFEFEF;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="169.0" prefWidth="800.0" style="-fx-background-color: #BCBCBC;">
+               <children>
+                  <Label fx:id="nameOfPerson" layoutX="170.0" layoutY="41.0" prefHeight="53.0" prefWidth="616.0" styleClass="my_class" text="ww" textFill="WHITE">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="102.0" fitWidth="110.0" layoutX="33.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Users/Admin/Desktop/Shrek-Meme-Background-PNG-Image.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Line endX="-10.5" endY="256.0" layoutX="36.0" layoutY="258.0" startX="-10.500024795532227" startY="-56.0" stroke="#fa7327" strokeLineCap="ROUND" strokeWidth="5.0" />
+            <Label layoutX="49.0" layoutY="316.0" prefHeight="45.0" prefWidth="573.0" styleClass="not_my_class" text="-1 “Ь” класс" textFill="#6c6c6c">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="49.0" layoutY="367.0" styleClass="not_my_class" text="Дата рождения: 27.09.2016">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="49.0" layoutY="258.0" prefHeight="53.0" prefWidth="395.0" text="СШ 11444 г. Гомеля" textFill="#6c6c6c">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
